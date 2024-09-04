@@ -1,0 +1,31 @@
+.q { background-color: aquamarine;
+    height: 100px;
+     width: 1700px;
+     border: 5px solid blue;
+
+}
+.e {
+   color: blueviolet; margin: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a{
+   background-color: aqua;
+    text-align: left; 
+    font-size: medium;
+     box-sizing:10px;
+      height: 100px;
+       width: 200px;
+        margin: 10px;
+}
+.w{
+   margin-left: 18px; font-style: italic;
+}
+.r{
+   border-radius: 30px; width: 700;height: 300px;
+}
+body{
+   background-image:url(j.jpg) ;
+}
+p{
+   text-align: center;
+}

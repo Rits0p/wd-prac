@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameset and Iframe Example</title>
+</head>
+<body>
+    <h1>Frameset Example</h1>
+    <p>This example demonstrates the use of &lt;frameset&gt;, &lt;frame&gt;, and &lt;noframes&gt;.</p>
+    
+    <frameset cols="100%,100%">
+        <frame src="prac1.5.html" name="frame1" title="Frame 1">
+        <frame src="prac1.6.html" name="frame2" title="Frame 2">
+        <noframes>
+            <body>
+                <p>Your browser does not support frames. You can visit the following links:</p>
+                <p><a href="prac1.5.html">Frame 1</a></p>
+                <p><a href="prac1.6.html">Frame 2</a></p>
+            </body>
+        </noframes>
+    </frameset>
+    
+    
+    <h1>Iframe Example</h1>
+    <iframe src="prac1.5.html" width="500" height="500" title="Iframe Example">
+        <p>Your browser does not support iframes.</p>
+    </iframe>
+</body>
+</html>
